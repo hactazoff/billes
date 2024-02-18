@@ -1,5 +1,9 @@
+import guilines.IJeuDesBilles;
+
 import java.awt.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class PathFinding {
     public enum NodeTypes {
         EMPTY, WALL,
@@ -39,24 +43,21 @@ public class PathFinding {
         public boolean equals(Node n) {
             return x == n.x && y == n.y;
         }
-        public String toString() {
-            return "Node(" + x + ", " + y + ")";
-        }
-
-
     }
 
     private Node[] nodes;
     private final int width;
     private final int height;
 
-    public PathFinding(int width, int height) {
+    public PathFinding(Grille grille, Point start, Point end) {
+        width = grille.getWidth();
+        height = grille.getHeight();
         nodes = new Node[width * height];
-        this.width = width;
-        this.height = height;
         for(int y = 0; y < height; y++)
             for(int x = 0; x < width; x++)
-                setNode(x, y, NodeTypes.EMPTY);
+                setNode(x, y, grille.getValeur(y, x) == null ? NodeTypes.EMPTY : NodeTypes.WALL);
+        setStart(start.x, start.y);
+        setEnd(end.x, end.y);
     }
 
     public void setNode(int x, int y, NodeTypes type) {
