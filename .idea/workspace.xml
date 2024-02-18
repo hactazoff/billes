@@ -5,14 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d0dd4ac-fcb9-493b-93d7-33e9b1e0ff39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MonJeu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeudebilles/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeudebilles/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeudebilles/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeudebilles/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeudebilles/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeudebilles/jeudebilles.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeudebilles/src/Case.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeudebilles/src/Couleurs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeudebilles/src/Grille.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeudebilles/src/MonJeu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeudebilles/src/PathFinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeudebilles/src/Suggestions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PathFinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MonJeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MonJeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tp4.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +40,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2bwuLEGTZ3lCRCONKNDgyl08PVH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,13 +56,16 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/hactazia/Téléchargements/guilines.jar",
+    "last_opened_file_path": "U:/Users/hactazia/Downloads/guilines.jar",
     "onboarding.tips.debug.path": "/home/hactazia/.github/tp4/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -62,7 +76,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-11.0.21-corretto-11.0.21-4caba194b151-fab2e099" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
   </component>
@@ -76,16 +90,5 @@
       <updated>1707138405128</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MonJeu.java</url>
-          <line>85</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
